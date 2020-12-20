@@ -1,0 +1,38 @@
+.slider {
+    &__item  {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+    }
+    .slick {
+        &-dots {
+            margin: -30px auto 0;
+            position: relative;
+            z-index: 6;
+            max-width: 1200px;
+            li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+            button {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: #0b0b0b;
+                border: none;
+                padding: 0;
+                font-size: 0;
+                cursor: pointer;
+                outline: none;
+            }
+
+        }
+        &-active {
+            button {
+                background-color: #fff;
+            }
+        }
+    }
+}

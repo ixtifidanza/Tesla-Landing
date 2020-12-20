@@ -1,0 +1,27 @@
+.design {
+    margin: 100px 0;
+    &-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+
+    &-item {
+        display: flex;
+        font-size: 24px;
+
+        &__content {
+            margin-top: 45px;
+            line-height: 1.4;
+        }
+
+        &__pag {
+            color: #B70021;
+
+            &--second {
+                margin-right: 80px;
+            }
+        }
+    }
+}

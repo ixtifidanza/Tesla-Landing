@@ -1,0 +1,27 @@
+.statick {
+    padding: 105px 25px 100px;
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        &-item {
+            &__title {
+                font-size: 24px;
+                margin-bottom: 19px;
+                text-align: center;
+            }
+            &__subtitle {
+                font-size: 90px;
+                font-weight: bold;
+                span {
+                    font-size: 24px;
+                }
+            }
+            &__text {
+                text-align: center;
+                color: #B70021;
+                font-size: 24px;
+            }
+        }
+}
